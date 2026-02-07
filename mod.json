@@ -1,10 +1,10 @@
 {
-	"geode": "4.0.0-beta.1",
+	"geode": "5.0.0-alpha.1",
 	"gd": {
-		"win": "2.2074",
-		"android": "2.2074",
-		"mac": "2.2074",
-		"ios": "2.2074"
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
 	},
 	"id": "hjfod.trashcan",
 	"name": "Trashcan",
@@ -14,18 +14,13 @@
 	"dependencies": [
 		{
 			"id": "geode.node-ids",
-			"version": "1.12.0",
+			"version": "1.22.0-beta.1",
 			"importance": "required"
 		},
 		{
 			"id": "hjfod.gmd-api",
-			"version": "1.2.1",
+			"version": "1.4.4",
 			"importance": "required"
-		},
-		{
-			"id": "hjfod.gdshare",
-			"version": "1.3.0",
-			"importance": "suggested"
 		}
 	],
 	"incompatibilities": [

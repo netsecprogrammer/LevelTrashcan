@@ -5,10 +5,13 @@
 #include <Geode/utils/cocos.hpp>
 #include <Geode/binding/GJGameLevel.hpp>
 #include <Geode/binding/GJLevelList.hpp>
+#include <Geode/loader/Event.hpp>
 
 using namespace geode::prelude;
 
-struct UpdateTrashEvent : public Event {};
+struct UpdateTrashEvent final : public geode::SimpleEvent<UpdateTrashEvent> {
+    using SimpleEvent::SimpleEvent;
+};
 
 class Trashed : public CCObject {
 protected:
